@@ -1,0 +1,80 @@
+export const projects = [
+  {
+    id: "1",
+    image: "https://i.ibb.co.com/xqGDRgbv/topic-Tree.jpg",
+    title: "TopicTree",
+    description: "Introducing TopicTree, a simple discussion platform",
+    data: "fade-right",
+    technology: [
+      "Javascript",
+      "Tailwind Css",
+      "React",
+      "Node.JS",
+      "Express.JS",
+      "Mongodb",
+      "Firebase",
+    ],
+    git: "https://github.com/Th0u305/forum-website",
+    link: "https://forum-website-pi.vercel.app/",
+    type: "react",
+  },
+  {
+    id: "2",
+    image: "https://i.ibb.co.com/VWnGKd68/food.png",
+    title: "Culinary-ai",
+    description:
+      "Recipe Finder – Users enter ingredients they have, and AI suggests recipes based on available items",
+    link: "https://culinary-ai.vercel.app/",
+    data: "fade-up",
+    technology: [
+      "Typescript",
+      "Tailwind Css",
+      "NextJS",
+      "Kinde Auth",
+      "MongoDB",
+      "Prisma",
+    ],
+    type: "nextjs",
+
+    git: "https://github.com/Th0u305/CulinaryAI",
+  },
+  {
+    id: "3",
+    image: "https://i.ibb.co.com/8XY8wwn/service.jpg",
+    title: "TrustWise",
+    description: "A Service company that provides various services",
+    link: "https://simple-service-three.vercel.app/",
+    data: "fade-left",
+    git: "https://github.com/Th0u305/simple-service-website",
+    type: "react",
+    technology: [
+      "Javascript",
+      "Tailwind Css",
+      "React",
+      "Node.JS",
+      "Express.JS",
+      "Mongodb",
+      "Firebase",
+    ],
+  },
+  {
+    id: "4",
+    image: "https://i.ibb.co.com/997Lccy/gadget.jpg",
+    title: "Gadget Heaven",
+    data : "fade-down",
+    description:
+      "An online store specializing in the latest and most reliable technology products.",
+    link: "https://gadgets-heaven-kohl.vercel.app/",
+    git: "https://github.com/Th0u305/gadgets-heaven",
+    type : "react",
+    technology: [
+      "Javascript",
+      "Tailwind Css",
+      "React",
+      "Node.JS",
+      "Express.JS",
+      "Mongodb",
+      "Firebase"
+    ]
+  },
+];
