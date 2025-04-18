@@ -41,7 +41,7 @@ export default function ContactPage() {
   };
 
   return (
-    <div className="container mx-auto px-4 mt-48 mb-48">
+    <div className="container mx-auto px-6 mt-48 mb-48">
       <div className="text-center mb-12">
         <h1 className="text-4xl md:text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-purple-600">
           Get In Touch

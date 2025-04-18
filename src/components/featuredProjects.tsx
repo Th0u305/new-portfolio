@@ -25,7 +25,7 @@ export default function FeaturedProjects() {
 
   return (
     <section className="py-32">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-center mb-12" data-aos="fade">
           <div>
             <h2 className="text-3xl md:text-4xl font-bold">

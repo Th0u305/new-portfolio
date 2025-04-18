@@ -35,9 +35,9 @@ const Pagination = ({currentPage, setCurrentPage}:PageTypes) => {
         <button
           key={i}
           onClick={() => handlePageClick(i)}
-          className={`mx-1 px-4 py-2 text-[0.9rem] sm:text-[1rem] rounded-full transform transition-all duration-300 ${
+          className={`mx-1 px-3 py-1 text-[0.9rem] sm:text-[1rem] rounded-full transform transition-all duration-300 ${
             currentPage === i
-              ? "bg-[#3B9DF8] text-white scale-110 shadow-md"
+              ? "bg-[#00b8d9] text-white scale-110 shadow-md"
               : "bg-transparent text-blue-600 hover:bg-blue-100"
           }`}
         >
@@ -54,7 +54,7 @@ const Pagination = ({currentPage, setCurrentPage}:PageTypes) => {
       <button
         onClick={handlePrevious}
         disabled={currentPage === 1}
-        className="mx-1 px-3 py-3 rounded-full bg-white text-blue-600 hover:bg-blue-100 transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center"
+        className="mx-1 px-2.5 py-2.5 rounded-full bg-white text-blue-600 hover:bg-blue-100 transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center"
       >
         <ArrowLeft />
       </button>
@@ -62,7 +62,7 @@ const Pagination = ({currentPage, setCurrentPage}:PageTypes) => {
       <button
         onClick={handleNext}
         disabled={currentPage === totalPages}
-        className="mx-1 px-3 py-3 rounded-full bg-white text-blue-600 hover:bg-blue-100 transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center"
+        className="mx-1 px-2.5 py-2.5 rounded-full bg-white text-blue-600 hover:bg-blue-100 transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center"
       >
         <ArrowRight />
       </button>

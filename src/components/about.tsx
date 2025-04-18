@@ -21,7 +21,7 @@ export default function About() {
 
   return (
     <section className="py-20 scnd-bg h-[50rem] flex items-center">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-6">
         <div
           className="max-w-3xl mx-auto"
           data-aos="fade-down"

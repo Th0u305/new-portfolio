@@ -45,8 +45,8 @@ export default function ProjectsPage() {
   ];
 
   return (
-    <div className="container mx-auto px-4 max-w-7xl mt-48 mb-48">
-      <div className="space-y-8">
+    <div className="container mx-auto px-6 mt-48 mb-28">
+      <div className="space-y-8 mb-16">
         <div className="text-center">
           <h1 className="h-14 text-4xl md:text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-purple-600">
             My Projects
@@ -75,7 +75,7 @@ export default function ProjectsPage() {
 
         <motion.div
           layout
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8"
+          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-8"
         >
           {filteredProjects.length > 0 ? (
             filteredProjects?.map((project) => (

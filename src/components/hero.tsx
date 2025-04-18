@@ -111,7 +111,7 @@ export default function Hero() {
 
       <div className="absolute inset-0 bg-gradient-radial from-transparent to-background -z-10"></div>
 
-      <div className="container mx-auto px-4 py-16 md:py-24 relative z-10">
+      <div className="py-16 md:py-24 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}

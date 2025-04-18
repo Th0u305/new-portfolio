@@ -7,7 +7,7 @@ export default function Footer() {
 
   return (
     <footer className="bg-background border-t border-[#1d293b]">
-      <div className="container mx-auto px-4 py-12">
+      <div className="container mx-auto px-6 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="md:col-span-2">
             <Link href="/" className="flex items-center gap-2 mb-4">
@@ -23,7 +23,11 @@ export default function Footer() {
               elegant, performant, and accessible web experiences.
             </p>
             <div className="flex gap-3">
-              <Button variant="ghost" size="icon" className="border border-gray-700 hover:bg-[#1d293b]">
+              <Button
+                variant="ghost"
+                size="icon"
+                className="border border-gray-700 hover:bg-[#1d293b]"
+              >
                 <Link
                   href="https://github.com/Th0u305"
                   target="_blank"
@@ -32,7 +36,11 @@ export default function Footer() {
                   <Github className="h-5 w-5" />
                 </Link>
               </Button>
-              <Button variant="ghost" size="icon" className="border border-gray-700 hover:bg-[#1d293b]">
+              <Button
+                variant="ghost"
+                size="icon"
+                className="border border-gray-700 hover:bg-[#1d293b]"
+              >
                 <Link
                   href="https://www.linkedin.com/in/ahnaf-uzzaman-2282a920b"
                   target="_blank"
@@ -41,7 +49,11 @@ export default function Footer() {
                   <Linkedin className="h-5 w-5" />
                 </Link>
               </Button>
-              <Button variant="ghost" size="icon" className="border border-gray-700 hover:bg-[#1d293b]">
+              <Button
+                variant="ghost"
+                size="icon"
+                className="border border-gray-700 hover:bg-[#1d293b]"
+              >
                 <Link
                   href="https://twitter.com"
                   target="_blank"
@@ -50,7 +62,11 @@ export default function Footer() {
                   <Twitter className="h-5 w-5" />
                 </Link>
               </Button>
-              <Button variant="ghost" size="icon" className="border border-gray-700 hover:bg-[#1d293b]">
+              <Button
+                variant="ghost"
+                size="icon"
+                className="border border-gray-700 hover:bg-[#1d293b]"
+              >
                 <Link
                   href="https://instagram.com"
                   target="_blank"
@@ -62,51 +78,53 @@ export default function Footer() {
             </div>
           </div>
 
-          <div>
-            <h3 className="font-bold text-lg mb-4">Quick Links</h3>
-            <ul className="space-y-2">
-              <li>
-                <Link
-                  href="/"
-                  className="text-muted-foreground hover:text-foreground transition-colors"
-                >
-                  Home
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/about"
-                  className="text-muted-foreground hover:text-foreground transition-colors"
-                >
-                  About
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/projects"
-                  className="text-muted-foreground hover:text-foreground transition-colors"
-                >
-                  Projects
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/contact"
-                  className="text-muted-foreground hover:text-foreground transition-colors"
-                >
-                  Contact
-                </Link>
-              </li>
-            </ul>
-          </div>
+          <div className="grid grid-cols-2 col-span-2">
+            <div>
+              <h3 className="font-bold text-lg mb-4">Quick Links</h3>
+              <ul className="space-y-2">
+                <li>
+                  <Link
+                    href="/"
+                    className="text-muted-foreground hover:text-foreground transition-colors"
+                  >
+                    Home
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/about"
+                    className="text-muted-foreground hover:text-foreground transition-colors"
+                  >
+                    About
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/projects"
+                    className="text-muted-foreground hover:text-foreground transition-colors"
+                  >
+                    Projects
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/contact"
+                    className="text-muted-foreground hover:text-foreground transition-colors"
+                  >
+                    Contact
+                  </Link>
+                </li>
+              </ul>
+            </div>
 
-          <div>
-            <h3 className="font-bold text-lg mb-4">Contact</h3>
-            <ul className="space-y-2">
-              <li className="text-muted-foreground">hello@example.com</li>
-              <li className="text-muted-foreground">+1 (555) 123-4567</li>
-              <li className="text-muted-foreground">San Francisco, CA</li>
-            </ul>
+            <div>
+              <h3 className="font-bold text-lg mb-4">Contact</h3>
+              <ul className="space-y-2">
+                <li className="text-muted-foreground">hello@example.com</li>
+                <li className="text-muted-foreground">+1 (555) 123-4567</li>
+                <li className="text-muted-foreground">San Francisco, CA</li>
+              </ul>
+            </div>
           </div>
         </div>
 

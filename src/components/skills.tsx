@@ -26,28 +26,28 @@ export default function Skills() {
       title: "Frontend Development",
       description: "Building responsive and interactive user interfaces with React, Next.js, and TypeScript.",
       technologies: ["HTML", "CSS", "Tailwind CSS" , "JavaScript", "TypeScript", "React", "Next.js", "Redux"],
-      data : "fade-up"
+      data : "fade-down"
     },
     {
       icon: <Layers className="h-8 w-8 text-cyan-500" />,
       title: "Backend Development",
       description: "Creating robust server-side applications and APIs.",
       technologies: ["Node.js", "Express", "MongoDB", "PostgreSQL", "REST APIs", "Prisma"],
-      data : "fade-down"
+      data : "fade-up"
     },
     {
       icon: <Paintbrush className="h-8 w-8 text-cyan-500" />,
       title: "UI/UX Design",
       description: "Designing intuitive and visually appealing user experiences.",
       technologies: ["Figma", "Tailwind CSS", "CSS-in-JS", "Responsive Design"],
-      data : "fade-left"
+      data : "fade-down"
     },
     {
       icon: <Database className="h-8 w-8 text-cyan-500" />,
       title: "Database Management",
       description: "Working with various database systems to store and manage data efficiently.",
       technologies: ["MongoDB", "Firebase"],
-      data : "fade-right"
+      data : "fade-up"
     },
     {
       icon: <Rocket className="h-8 w-8 text-cyan-500" />,
@@ -67,7 +67,7 @@ export default function Skills() {
 
   return (
     <section className="py-32 scnd-bg">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-6">
         <div className="text-center mb-16" data-aos="fade-up">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">My Skills</h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">

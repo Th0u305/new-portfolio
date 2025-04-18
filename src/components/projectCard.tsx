@@ -29,15 +29,13 @@ export default function ProjectCard({ project }: ProjectCardProps) {
     }, []);
   return (
     <Card
-    // data-aos={project.data}
       className="overflow-hidden group h-full flex flex-col py-0"
     >
       <div className="relative h-48 overflow-hidden">
         <Image
           src={project.image || "/placeholder.svg"}
           alt={project.title}
-          width={500}
-          height={300}
+          fill
           className="object-cover transition-transform duration-500 group-hover:scale-105"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>

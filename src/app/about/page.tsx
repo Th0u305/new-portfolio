@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function AboutPage() {
   return (
-    <div className="container mx-auto px-4 mt-48 mb-48">
+    <div className="container mx-auto px-6 mt-48 mb-32">
       <div className="grid md:grid-cols-2 gap-12 items-center">
         <div className="order-2 md:order-1">
           <h1 className="text-4xl md:text-5xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-purple-600">
@@ -76,6 +76,7 @@ export default function AboutPage() {
                 alt="Developer portrait"
                 fill
                 className="pointer-events-none object-cover"
+                loading="lazy"
               />
             </div>
           </div>
