@@ -7,17 +7,15 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model image {
-  id String @id @default(auto()) @map("_id") @db.ObjectId
-}
-
 model projectsData {
-  id          String   @id @default(auto()) @map("_id") @db.ObjectId
-  description String
-  git         String
-  image       String
-  link        String
-  technology  String[]
-  title       String
-  type        String
+  id           String   @id @default(auto()) @map("_id") @db.ObjectId
+  challenges   String[]
+  description  String
+  git          String
+  image        String
+  improvements String[]
+  link         String
+  technology   String[]
+  title        String
+  type         String
 }

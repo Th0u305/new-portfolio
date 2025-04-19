@@ -17,6 +17,16 @@ export const projects = [
     git: "https://github.com/Th0u305/forum-website",
     link: "https://forum-website-pi.vercel.app/",
     type: "react",
+    challenges: [
+      "Implementing a secure authentication system",
+      "Creating a rich text editor with image uploads",
+      "Optimizing SEO for dynamic content",
+    ],
+    improvements: [
+      "Implement content recommendation system",
+      "Add newsletter subscription functionality",
+      "Create a mobile app version",
+    ],
   },
   {
     id: "2",
@@ -35,8 +45,19 @@ export const projects = [
       "Prisma",
     ],
     type: "nextjs",
-
     git: "https://github.com/Th0u305/CulinaryAI",
+    challenges: [
+      "My first projects using typescript had a great learning curve",
+      "Optimizing image loading for recipe photos",
+      "Creating an intuitive search experience",
+    ],
+    improvements: [
+      "Add meal planning functionality",
+
+      "Implement nutritional information analysis",
+
+      "Create a shopping list generator",
+    ],
   },
   {
     id: "3",
@@ -56,17 +77,27 @@ export const projects = [
       "Mongodb",
       "Firebase",
     ],
+    challenges: [
+      "Implementing a secure authentication system",
+      "Creating a unique design that stands out",
+      "Implementing responsive design for all screen sizes",
+    ],
+    improvements: [
+      "Hire companies",
+      "Add newsletter subscription functionality",
+      "Implement content recommendation system",
+    ],
   },
   {
     id: "4",
-    image: "https://i.ibb.co.com/997Lccy/gadget.jpg",
-    title: "Gadget Heaven",
-    data : "fade-down",
+    image: "https://i.ibb.co.com/0mwZSHM/adventure.jpg",
+    title: "Adventure",
+    data: "fade-down",
     description:
-      "An online store specializing in the latest and most reliable technology products.",
-    link: "https://gadgets-heaven-kohl.vercel.app/",
-    git: "https://github.com/Th0u305/gadgets-heaven",
-    type : "react",
+      "At EcoVentures Hub, we’re passionate about connecting people with the beauty of nature while promoting sustainable travel. Our mission is to inspire eco-conscious explorers to embark on extraordinary journeys that respect and preserve the environment.",
+    link: "https://adventure-nine-omega.vercel.app",
+    git: "https://github.com/Th0u305/adventure",
+    type: "react",
     technology: [
       "Javascript",
       "Tailwind Css",
@@ -74,7 +105,13 @@ export const projects = [
       "Node.JS",
       "Express.JS",
       "Mongodb",
-      "Firebase"
-    ]
+      "Firebase",
+    ],
+    challenges: [
+      "Implementing a secure authentication system",
+      "Ensuring accessibility with interactive elements",
+      "Creating a unique design that stands out",
+    ],
+    improvements: ["Add newsletter subscription functionality"],
   },
 ];

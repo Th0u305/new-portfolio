@@ -18,9 +18,7 @@ export default function ProjectsPage() {
     const page = async () => {
       await fetch(`/api/getProjects/${currentPage}/${activeCategory}`)?.then((res)=> res.json())?.then((data)=> {
         setLoading(true)       
-        setTimeout(() => {
-          setProjects(data)  
-        }, 200);
+        setProjects(data)  
         if (data?.length === 0) {
           setLoading(false)
         }
@@ -75,7 +73,7 @@ export default function ProjectsPage() {
 
         <motion.div
           layout
-          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-8"
+          className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6 mt-8"
         >
           {filteredProjects.length > 0 ? (
             filteredProjects?.map((project) => (
