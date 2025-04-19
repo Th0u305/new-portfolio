@@ -48,8 +48,9 @@ button:active {
 }
 
 :root {
-  --background: #ffffff;
-  --foreground: #020717;
+  --background: #020817;
+  --foreground: #ededed;
+  --border-color: #1d293b;
 }
 
 @theme inline {
@@ -57,12 +58,4 @@ button:active {
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #020817;
-    --foreground: #ededed;
-    --border-color: #1d293b;
-  }
 }

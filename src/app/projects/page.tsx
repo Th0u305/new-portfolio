@@ -20,7 +20,7 @@ export default function ProjectsPage() {
         setLoading(true)       
         setTimeout(() => {
           setProjects(data)  
-        }, 700);
+        }, 200);
         if (data?.length === 0) {
           setLoading(false)
         }
