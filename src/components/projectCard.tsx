@@ -32,20 +32,19 @@ export default function ProjectCard({ project }: ProjectCardProps) {
   }, []);
 
   return (
-    <Card className="overflow-hidden group py-0 gap-0">
+    <Card className="overflow-hidden group h-full flex flex-col py-0 gap-0">
       <div className="relative h-48 overflow-hidden">
         <Image
           src={project.image || "/placeholder.svg"}
           alt={project.title}
           fill
-          loading="lazy"
           className="object-cover transition-transform duration-500 group-hover:scale-105"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
       </div>
 
-      <CardContent className="flex flex-col justify-between mt-8 mb-8">
-        <div className="flex flex-wrap gap-2 mb-3">
+      <CardContent className="flex-grow">
+        <div className="flex flex-wrap gap-2 mt-8">
           {project?.technology.map((technology) => (
             <Badge
               key={technology}
@@ -56,19 +55,15 @@ export default function ProjectCard({ project }: ProjectCardProps) {
             </Badge>
           ))}
         </div>
-
-        <div>
-          <h3 className="text-xl font-bd mb-2">{project?.title}</h3>
-
-          <p className="text-gray-400 font-semibold">{project?.description}</p>
-        </div>
+        <h3 className="text-xl font-bd mb-2 mt-4">{project?.title}</h3>
+        <p className="text-gray-400 font-semibold">{project?.description}</p>
       </CardContent>
 
       <CardContent>
         <Button
           variant="ghost"
           size="sm"
-          className="mb-6 w-full flex items-center justify-center font-bold border border-[#1d293b] hover:bg-slate-800"
+          className="mb-6 mt-6 w-full flex items-center justify-center font-bold border border-[#1d293b] hover:bg-slate-800"
           onClick={() => setIsExpanded(!isExpanded)}
         >
           {isExpanded ? (

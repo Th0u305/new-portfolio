@@ -15,7 +15,7 @@ export async function GET(req: NextRequest, { params }: { params: Promise<{ page
   try {
     const projects = await prisma.projectsData.findMany({
       skip : (pageNumber - 1) * 6,
-      take : 6,
+      take : 9,
       where: {
         type: category !== "all" ? { equals: category , mode : "insensitive"} : undefined,
       },
