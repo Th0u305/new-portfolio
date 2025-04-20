@@ -25,17 +25,13 @@ export default function About() {
         <div
           className="max-w-3xl mx-auto"
           data-aos="fade-down"
-          // data-aos-easing="ease-in-out"
-          // data-aos-duration="800"
-          // data-aos-once="false"
-          // data-aos-mirror="true"
         >
           <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">
             I take a user-first approach to design, making sure every solution
             is customized to meet the distinct needs of the audience.
           </h2>
 
-          <div className="mt-12 space-y-6 text-lg">
+          <div className="mt-12 space-y-6 text-lg text-center">
             <p>
               As a developer, I focus on delivering high-quality code and
               polished user experiences. I enjoy turning complex ideas into

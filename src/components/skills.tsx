@@ -32,7 +32,7 @@ export default function Skills() {
       icon: <Layers className="h-8 w-8 text-cyan-500" />,
       title: "Backend Development",
       description: "Creating robust server-side applications and APIs.",
-      technologies: ["Node.js", "Express", "MongoDB", "PostgreSQL", "REST APIs", "Prisma"],
+      technologies: ["Node.js", "Express", "MongoDB", "REST APIs", "Prisma"],
       data : "fade-up"
     },
     {
